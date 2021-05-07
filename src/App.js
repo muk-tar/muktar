@@ -13,6 +13,7 @@ import Media from './Components/Media'
 import Events from './Components/Events'
 import Affiliates from './Components/Affiliates'
 import ContactUs from './Components/ContactUs'
+import Practice from './Components/Practice'
 
 export default function App() {
   return (
@@ -31,6 +32,7 @@ export default function App() {
           <Route path='/events' component={Events} />
           <Route path='/affiliates' component={Affiliates} />
           <Route path='/contactus' component={ContactUs} />
+          <Route path='/practice' component={Practice} />
         </Switch>
     </div>
   )

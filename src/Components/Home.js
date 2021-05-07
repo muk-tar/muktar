@@ -3,12 +3,19 @@ import './css/Home.css'
 import photo from '../images/home.jpg'
 
 
+import {NavLink} from 'react-router-dom'
+
+
 export default function Home() {
     return (
         <section className="home" style={{backgroundImage:`url(${photo})`,backgroundAttachment:'fixed', backgroundSize: '100% 100%', backgroundRepeat:"no-repeat"}}>
             <div className="container">
                 <h1>Muktar Enterprise</h1>
-                <button className="btn btn-primary">Explore</button>
+
+                <NavLink to="/explore">
+                    <button className="btn btn-primary">Explore</button>
+                </NavLink>
+                
             <div>
                 <h6>a build of different companies, businesses and entities operating in varied sectors and segments as a collective and complementary aggregate.</h6>
                 <h6>Airport | Fintech | Industry 4.0 | Logistics |Iot and AI | UTM | Smart City !</h6>

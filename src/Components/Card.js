@@ -2,10 +2,12 @@ import React, {useEffect,useState} from 'react'
 import './css/Card.css'
 import M from 'materialize-css';
 
+import {NavLink} from 'react-router-dom'
 
 
 
-function Card1({title,description,photo}){
+
+const Card1=({title,description,photo})=>{
     console.log({photo,title,description})
     const bg_img=`url(${photo})`
     return(
@@ -22,10 +24,9 @@ function Card1({title,description,photo}){
 }
 
 
-{/* <img src={photo} src={photo} alt="somephoto" /> */}
 
 
-function Card2({title,description,photo}){
+const Card2=({title,description,photo})=>{
     return(
         <div className="card large card2">
         <div className="card-image">
@@ -45,13 +46,13 @@ function Card2({title,description,photo}){
 
 
 
-function Card3({title,description,photo}){
+const Card3 =({title,description,photo})=>{
     return(
         <div className="card medium card3">
         <div className="card-image">
           <img src={photo}  alt="somephoto" />
           <span className="card-title">{title}</span>
-          <a className="btn-floating halfway-fab waves-effect waves-light red"><i className="material-icons">add</i></a>
+    
          
         </div>
         <div className="card-content">
@@ -65,7 +66,8 @@ function Card3({title,description,photo}){
 
 
 
-function Card4({title,description,photo}){
+
+const Card4=({title,description,photo})=>{
     return(
         <div className="card small card4">
             <div className="card-image waves-effect waves-block waves-light">
@@ -85,7 +87,8 @@ function Card4({title,description,photo}){
 
 
 
-function Card5({title,description,photo}){
+
+const Card5=({title,description,photo})=>{
    
         useEffect(() => {
             document.addEventListener('DOMContentLoaded', function() {
@@ -118,7 +121,8 @@ function Card5({title,description,photo}){
 }
 
 
-function Card6({title,description,photo}){
+
+const Card6=({title,description,photo})=>{
 
     const bg_img=`url(${photo})`
    
@@ -137,11 +141,12 @@ function Card6({title,description,photo}){
 
 
 
-function Card7({title,description,photo}){
+
+const Card7=({title,description,photo})=>{
     return(
             <div className="card7">
                 <div className="circlee">
-                    <img src={photo}></img>
+                    <img src={photo} alt="circleimage"></img>
                     <h4 className="circle-text">{title}</h4>
 
                 </div>
@@ -157,7 +162,7 @@ function Card7({title,description,photo}){
 
 
 
-function Card8({title,description,photo}){
+const Card8=({title,description,photo})=>{
 
 
     const [hovered, setHovered] = useState(false);
@@ -177,12 +182,11 @@ function Card8({title,description,photo}){
 }   
 
 
-
-function Card9({title,description,photo}){
+const Card9 =({title,description,photo})=>{
     return(
         <div className="card">
             <div className="card-image">
-              <img src={photo} />
+              <img src={photo} alt="cardimage" />
               <span className="card-title">{title}</span>
             </div>
             <div className="card-content">
@@ -197,30 +201,30 @@ function Card10(){
     return(
         <div className="card grey">
             <form className="col s12">
-                <div class="row">
-                    <div class="input-field col s6">
-                        <input id="first_name" type="text" class="validate" />
+                <div className="row">
+                    <div className="input-field col s6">
+                        <input id="first_name" type="text" className="validate" />
                         <label for="first_name">First Name</label>
                     </div>
-                    <div class="input-field col s6">
-                        <input id="last_name" type="text" class="validate" />
+                    <div className="input-field col s6">
+                        <input id="last_name" type="text" className="validate" />
                         <label for="last_name">Last Name</label>
                     </div>
 
-                    <div class="input-field col s12">
-                        <i class="material-icons prefix">phone</i>
-                        <input id="icon_telephone" type="tel" class="validate"/>
+                    <div className="input-field col s12">
+                        <i className="material-icons prefix">phone</i>
+                        <input id="icon_telephone" type="tel" className="validate"/>
                         <label for="icon_telephone">Telephone</label>
                     </div>
 
-                    <div class="input-field col s12">
-                        <input id="email" type="email" class="validate" />
+                    <div className="input-field col s12">
+                        <input id="email" type="email" className="validate" />
                         <label for="email">Email</label>
                     </div>
 
 
-                    <div class="input-field col s12">
-                        <textarea id="textarea2" class="materialize-textarea" data-length="120"></textarea>
+                    <div className="input-field col s12">
+                        <textarea id="textarea2" className="materialize-textarea" data-length="120"></textarea>
                         <label for="textarea2">Textarea</label>
 
                         <button className="btn">Submit</button>
@@ -237,14 +241,16 @@ function Card10(){
 
 
 
-function Card11({title,description,photo}){
+
+const Card11=({title,description,photo})=>{
     return(
-        // <div class="card blue-grey darken-1" style={{height:'200px'}}>
-        <div class="card card11" style={{height:'200px', background:`url(${photo})`, backgroundRepeat:'no-repeat', backgroundSize:'100% 100%'}} >
-            <div class="card-content white-text center ">
-                <span class="card-title">{title}</span>
+        // <div className="card blue-grey darken-1" style={{height:'200px'}}>
+        <div className="card card11" style={{height:'200px', background:`url(${photo})`, backgroundRepeat:'no-repeat', backgroundSize:'100% 100%'}} >
+            <div className="card-content white-text center ">
+
+                <span className="card-title">{title}</span>
                 <p>{description}</p>
-                <a class="btn-floating"><i class="material-icons">add</i></a>
+                {/* <a className="btn-floating"><i className="material-icons">add</i></a> */}
             </div>
 
             
@@ -255,7 +261,115 @@ function Card11({title,description,photo}){
 
 
 
-export {Card1,Card2,Card3,Card4,Card5,Card6,Card7,Card8, Card9, Card10,Card11}
+
+const Card12=({title,description,photo})=>{
+
+
+    const bg_img=`url(${photo})`
+    return(
+      
+        <div className="card thecard">
+
+            <div className="thefront"><h1>{title}</h1></div>
+
+            <div className="theback" style={{backgroundImage:bg_img , backgroundSize:"100% 100%", backgroundRepeat:"no-repeat"}}><h1>Back of Card</h1><p>Your use of this site is subject to the terms and conditions governing this and all transactions.</p>
+            <button>Submit</button></div>
+
+        </div>
+
+    )
+}
+
+
+
+
+
+const Card13=({title,description,photo})=>{
+
+
+    // const bg_img=`url(${photo})`
+    return(
+      
+        <div className="card13">
+
+            <div className="face front"><h1>Front</h1></div>
+
+            <div className="face back" ><h1>Back</h1>
+            <button>Submit</button></div>
+
+        </div>
+
+    )
+}
+
+
+
+
+
+const Card14=({title,description,photo,title2,transfer})=>{
+
+
+    const transferto = `/${transfer}`
+
+    // const bg_img=`url(${photo})`
+    return(
+      
+
+        <div className="flip-card">
+            <div className="flip-card-inner">
+                <div className="flip-card-front">
+                    <img src={photo} alt="Avatar" style={{width:'250px',height:'250px', borderRadius:'20px', opacity:.7}} />
+                    <div className="front-card-content">
+                        <h5>{title}</h5>
+                        <p>{description}</p>
+                    </div>
+                    
+                </div>
+                <div className="flip-card-back">
+                    <div className="front-card-content">
+                    <NavLink to={transferto} style={{color:'white'}}>{title2}</NavLink>
+                    </div>
+                </div>
+            </div>
+      </div>
+      
+       
+
+    )
+}
+
+// <li><NavLink to="/">Home</NavLink></li>
+
+
+
+// const Card12=({title,description,photo})=>{
+
+
+//     return(
+//         <div className="card12 middle">
+//             <div className="front">
+//                 <img src={photo} alt="dummyimg"/>
+//             </div>
+            
+//             <div className="back">
+//                 <div className="back-content middle">
+//                     <h2>Rahul</h2>
+//                     <spam>Lorem ipsum dolor sit amet.</spam>
+//                     <div className="sm">
+//                         <a href="#"><i className="material-icons">insert_chart</i></a>
+//                         <a href="#"><i className="material-icons">insert_chart</i></a>
+//                         <a href="#"><i className="material-icons">insert_chart</i></a>
+//                         <a href="#"><i className="material-icons">insert_chart</i></a>
+//                     </div>
+//                 </div>
+//             </div>
+//         </div>
+//     )
+// }
+
+
+
+export {Card1,Card2,Card3,Card4,Card5,Card6,Card7,Card8, Card9, Card10,Card11,Card12,Card13,Card14}
 
 
 

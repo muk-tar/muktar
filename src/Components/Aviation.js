@@ -1,4 +1,6 @@
 import React from 'react'
+
+import photo from '../images/1976.png'
 import photo1 from '../images/aviation/photo7.jpg'
 import photo2 from '../images/aviation/pic02.jpg'
 import photo3 from '../images/aviation/photo7x.jpg'
@@ -7,8 +9,10 @@ import {Card1} from './Card'
 
 
 export default function Aviation() {
+
+    const bg_img=`url(${photo})`
     return (
-        <div className="aviation">
+        <div className="aviation" style={{backgroundImage:bg_img , backgroundSize:"100% 100%", backgroundRepeat:"no-repeat"}}>
             <div className="container">
                 <div className="row">
                     <div className="col s6"> 
@@ -60,67 +64,3 @@ export default function Aviation() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-{/* <div class="row">
-                <div class="col s12 m6 l3">
-                    <div class="card">
-                        <div class="card-image">
-                        <img src={photo} alt="" />
-                        <span class="card-title">Card Title</span>
-                        <a href="#" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
-                        </div>
-                        <div class="card-content">
-                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col s12 m6 l3">
-                    <div class="card">
-                        <div class="card-image">
-                        <img src={photo} alt="" />
-                        <span class="card-title">Card Title</span>
-                        <a href="#" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
-                        </div>
-                        <div class="card-content">
-                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col s12 m6 l3">
-                    <div class="card">
-                        <div class="card-image">
-                        <img src={photo} alt="" />
-                        <span class="card-title">Card Title</span>
-                        <a href="#" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
-                        </div>
-                        <div class="card-content">
-                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col s12 m6 l3">
-                    <div class="card">
-                        <div class="card-image">
-                        <img src={photo} alt="" />
-                        <span class="card-title">Card Title</span>
-                        <a href="#" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
-                        </div>
-                        <div class="card-content">
-                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                        </div>
-                    </div>
-                </div>
-            </div> */}

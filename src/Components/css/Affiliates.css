@@ -1,0 +1,25 @@
+.container1{
+    width: 100%;
+    background: chartreuse;
+    /* margin: 0 auto; */
+    padding: 2em 0;
+}
+
+
+.inner-content{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.outer-content{
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 2em;
+}
+
+
+/* .container{
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 2em;
+} */

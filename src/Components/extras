@@ -1,0 +1,227 @@
+aerospace page
+
+
+
+
+<section className="aero" >
+            <div className="part1" style={{background:'linear-gradient(to right bottom, #051937, #323e63, #5e6793, #8e94c6, #c0c3fb)'}}>
+                <div className="container">
+                    <div className="row">
+                        <div className="col s6 l4">
+                            <Card8 
+                            title="AEROSTRUCTURES"
+                            description="Aerostructures including wings, empennages, fuselage and components of metal or composites; formed, layered, machined or cast for platforms ranging from general aviation to space vehicles and business jets"
+                            photo={photo1}
+                            alt="img1"
+                            />
+                        </div>
+
+                        <div className="col s6 l4">
+                            <Card8 
+                            title="MRO"
+                            description="Maintenance, repair and overhaul (MRO) of commercial airliners, general aviation or military aircraft, whether manned or unmanned, including OEM and components logistics, log book and data management, systems integration and project management."
+                            photo={photo2}
+                            alt="img1"
+                            />
+                        </div>
+
+            
+                        <div className="col s6 l4">
+                            <Card8 
+                            title="SALES"
+                            description="An agency network for sales of general and light aircraft, sports planes, sailplanes, personal transport or recreational airplanes, manned or unmanned, piston or turbine engine or unpowered! Some unique and some so very common, to suit most of a buyer’s needs or requirements."
+                            photo={photo3}
+                            alt="img1"
+                            />
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            
+
+
+
+
+            <div className="card7-container" style={{display:'flex',justifyContent:'center',alignItems:'center',minHeight:'100vh',background:'linear-gradient(to right bottom, #051937, #323e63, #5e6793, #8e94c6, #c0c3fb)',backgroundAttachment:'fixed'}}>
+                <div className="container" style={{position:'relative',width:'1150px',padding:'20px',display:'flex',justifyContent:'center',alignItems:'center',flexWrap:'wrap'}}>
+                    <Card7 
+                    title="AEROSTRUCTURES"
+                    description="Aerostructures including wings, empennages, fuselage and components of metal or composites; formed, layered, machined or cast for platforms ranging from general aviation to space vehicles and business jets"
+                    photo={photo1}
+                    alt="img1"
+                    />
+
+                    <Card7 
+                    title="MRO"
+                    description="Maintenance, repair and overhaul (MRO) of commercial airliners, general aviation or military aircraft, whether manned or unmanned, including OEM and components logistics, log book and data management, systems integration and project management."
+                    photo={photo2}
+                    alt="img1"
+                    />
+
+                    <Card7 
+                    title="SALES"
+                    description="An agency network for sales of general and light aircraft, sports planes, sailplanes, personal transport or recreational airplanes, manned or unmanned, piston or turbine engine or unpowered! Some unique and some so very common, to suit most of a buyer’s needs or requirements."
+                    photo={photo3}
+                    alt="img1"
+                    />
+                </div>
+            </div>
+
+
+            
+    </section>
+
+
+
+
+
+
+    Affiliates
+
+        <div className="top">
+            <div className="affiliates">
+                <div className="container1">
+                    <div className="inner-content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis consequuntur at iste laborum suscipit, quisquam totam sit eos, neque tenetur aliquam provident id velit consequatur fuga molestiae rerum in hic explicabo voluptatibus non aliquid dolorem deserunt cum? Iusto aliquid exercitationem, sit eos atque voluptas nam aspernatur alias quisquam ab libero?</div>
+                </div>
+                <div className="outer-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus suscipit at, iure ducimus id aspernatur perspiciatis libero adipisci delectus tempore in fugiat omnis quis numquam nemo rerum quod ipsa quisquam quos? Aut rerum fugiat explicabo, labore possimus doloribus eius dolor earum repellat illum voluptatem eligendi expedita aperiam quibusdam commodi optio repudiandae tempora iste voluptates. Illum dolor totam quam magni mollitia dicta, earum natus numquam necessitatibus repellendus cumque magnam commodi rem dolorem quisquam iste. Dolorum debitis earum autem ab quaerat. Soluta vitae delectus repudiandae quisquam error veritatis tenetur fugit dolor dignissimos quam eveniet, odio mollitia qui vel, ut esse cumque maxime!</div>
+            </div>
+        </div>
+
+
+
+
+
+NavBar
+
+
+ return (
+        <section className="fnavbar">
+        <div className="navbar">
+                <nav className="blue-grey lighten-4">
+                    <div className="nav-wrapper">
+                        <NavLink to="/" className="brand-logo"><img className="nav__logo" src={logo} alt="logo"/></NavLink>
+                        <a href="#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
+                        <ul className="right hide-on-med-and-down">
+                            <li><NavLink to="/">Home</NavLink></li>
+                            <li><NavLink to="/explore">Explore</NavLink></li>
+                            <li><NavLink to="/steel">Steel</NavLink></li>
+                            {/* <li><NavLink to="/aerospace">Aerospace</NavLink></li> */}
+                            <li><NavLink to="/network">Network</NavLink></li>
+                            <li><NavLink to="/infrastructure">Infra</NavLink></li>
+                            <li><NavLink to="/aviation">Aviation</NavLink></li>
+                            <li><NavLink to="/skilling">Skilling</NavLink></li>
+                            <li><NavLink to="/media">Media</NavLink></li>
+                            <li><NavLink to="/events">Events</NavLink></li>
+                            {/* <li><NavLink to="/affiliates">Affiliates</NavLink></li> */}
+                            <li><NavLink to="/contactus">Contact Us</NavLink></li>
+                            <li><NavLink to="/practice">Demo</NavLink></li>
+                        </ul>
+                    </div>
+                </nav>
+
+                </div>
+                
+                <ul className="sidenav" id="mobile-demo">
+                    <li><NavLink to="/">Home</NavLink></li>
+                    <li><NavLink to="/explore">Explore</NavLink></li>
+                    <li><NavLink to="/steel">Steel</NavLink></li>
+                    <li><NavLink to="/aerospace">Aerospace</NavLink></li>
+                    <li><NavLink to="/network">Network</NavLink></li>
+                    <li><NavLink to="/infrastructure">Infra</NavLink></li>
+                    <li><NavLink to="/aviation">Aviation</NavLink></li>
+                    <li><NavLink to="/skilling">Skilling</NavLink></li>
+                    <li><NavLink to="/media">Media</NavLink></li>
+                    <li><NavLink to="/events">Events</NavLink></li>
+                    <li><NavLink to="/affiliates">Affiliates</NavLink></li>
+                    <li><NavLink to="/contactus">Contact Us</NavLink></li>
+            
+                </ul>
+
+        </section>
+        
+    )
+
+
+
+
+
+
+
+    media
+
+    
+{/* <div className="grid-container12">
+ <Card12 photo={photo} />
+ <Card12 photo={photo} />
+ <Card12 photo={photo} />
+ <Card12 photo={photo} />
+ <Card12 photo={photo} />
+ <Card12 photo={photo} />
+ <Card12 photo={photo} />
+ <Card12 photo={photo} /> 
+ <Card13 photo={photo} /> 
+ 
+</div> */}
+
+
+
+
+
+aerospace
+
+
+
+
+{/* <div className="row" style={{margin:'30px 30px'}}>
+                <div className="col s12 m6 l4">
+                    <div className="card">
+                        <div className="card-image waves-effect waves-block waves-light">
+                            <img className="activator" src={photo} alt='okimage' />
+                        </div>
+                        <div className="card-content">
+                            <span className="card-title activator grey-text text-darken-4">AEROSTRUCTURES<i className="material-icons right">more_vert</i></span>
+                        </div>
+                        <div className="card-reveal">
+                            <span className="card-title grey-text text-darken-4">AEROSTRUCTURES<i className="material-icons right">close</i></span>
+                            <p>Aerostructures including wings, empennages, fuselage and components of metal or composites; formed, layered, machined or cast for platforms ranging from general aviation to space vehicles and business jets.</p>
+                           
+                        </div>
+                    </div>
+                </div>
+        
+                <div className="col s12 m6 l4">
+                    <div className="card">
+                        <div className="card-image waves-effect waves-block waves-light">
+                            <img className="activator" src={photo} alt='okimage' />
+                        </div>
+                        <div className="card-content">
+                            <span className="card-title activator grey-text text-darken-4">MRO<i className="material-icons right">more_vert</i></span>
+                        </div>
+                        <div className="card-reveal">
+                            <span className="card-title grey-text text-darken-4">MRO<i className="material-icons right">close</i></span>
+                            <p>Maintenance, repair and overhaul (MRO) of commercial airliners, general aviation or military aircraft, whether manned or unmanned, including OEM and components logistics, log book and data management, systems integration and project management.</p>
+                           
+                        </div>
+                    </div>
+                </div>
+            
+        
+                <div className="col s12 m6 l4">
+                    <div className="card">
+                        <div className="card-image waves-effect waves-block waves-light">
+                            <img className="activator" src={photo} alt='okimage' />
+                        </div>
+                        <div className="card-content">
+                            <span className="card-title activator grey-text text-darken-4">SALES<i className="material-icons right">more_vert</i></span>
+                        </div>
+                        <div className="card-reveal">
+                            <span className="card-title grey-text text-darken-4">SALES<i className="material-icons right">close</i></span>
+                            <p>An agency network for sales of general and light aircraft, sports planes, sailplanes, personal transport or recreational airplanes, manned or unmanned, piston or turbine engine or unpowered! Some unique and some so very common, to suit most of a buyer’s needs or requirements.</p>
+                           
+                        </div>
+                    </div>
+                </div>
+        
+            </div> */}

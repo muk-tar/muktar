@@ -1,4 +1,18 @@
+.explore{
+    height:100vh;
+    background: linear-gradient(to right bottom, #051937, #323e63, #5e6793, #8e94c6, #c0c3fb);
+}
 
-.explore h1{
-    text-align: center;
+
+
+.explore-container{
+    /* position: relative;
+    text-align: center; */
+
+    width: 90vw;
+    margin: 0px auto 0 auto;
+    display:grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 250px);
+    gap: 20px;
 }
