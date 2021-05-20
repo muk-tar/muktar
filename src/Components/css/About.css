@@ -1,0 +1,44 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+
+
+.containerA{
+    
+    width: 80%;
+    margin: 0 auto;
+   /* border: 3px solid black; */
+}
+
+img{
+    max-width: 100%;
+
+}
+
+
+.roww{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
+@media (max-width: 800px) {
+    .roww{
+      flex-direction: column;
+    }
+
+    
+.abt-img{
+    width: 90%;
+}
+
+
+}

@@ -4,7 +4,7 @@ import M from 'materialize-css';
 
 import {NavLink} from 'react-router-dom'
 
-
+import {gsap} from 'gsap'
 
 
 const Card1=({title,description,photo})=>{
@@ -306,10 +306,17 @@ const Card13=({title,description,photo})=>{
 
 
 
-const Card14=({title,description,photo,title2,transfer})=>{
+const Card14=({title,description,photo,title2,transfer,contact})=>{
+
+
+    useEffect(() => {
+        gsap.fromTo(".flip-card", {x:-200},{rotation: 360, x: 0, duration: 1});
+       
+    }, [])
 
 
     const transferto = `/${transfer}`
+  
 
     // const bg_img=`url(${photo})`
     return(
@@ -323,20 +330,55 @@ const Card14=({title,description,photo,title2,transfer})=>{
                         <h5>{title}</h5>
                         <p>{description}</p>
                     </div>
-                    
                 </div>
                 <div className="flip-card-back">
                     <div className="front-card-content">
-                    <NavLink to={transferto} style={{color:'white'}}>{title2}</NavLink>
+                        
+                        {contact? <a href={title2}>{title2}</a>:<NavLink to={transferto} style={{color:'white'}}>{title2}</NavLink>}
                     </div>
+                  
+                
                 </div>
             </div>
       </div>
+
+
       
        
 
     )
 }
+
+
+
+
+
+
+const Card15=({title,description,photo,flag,lin})=>{
+
+    const bg_img =`url(${photo}) `
+    const fl_img =`url(${flag}) `
+
+
+    return(
+        <article className="card">
+            <div className="thumb" style={{background: bg_img, backgroundSize:'100% 100%'}}></div>
+            <div className="infos">
+                <h2 className="title">{title}<span className="flag" style={{background:fl_img,backgroundSize:'100% 100%'}}></span></h2>
+                <h3 className="date">2009</h3>
+              
+                <p className="txt">
+               {description}
+                </p>
+                <h3 className="details"><a href={lin} target="_blank">MORE</a></h3>
+            </div>
+        </article>
+    )
+}
+
+
+
+
 
 // <li><NavLink to="/">Home</NavLink></li>
 
@@ -369,7 +411,7 @@ const Card14=({title,description,photo,title2,transfer})=>{
 
 
 
-export {Card1,Card2,Card3,Card4,Card5,Card6,Card7,Card8, Card9, Card10,Card11,Card12,Card13,Card14}
+export {Card1,Card2,Card3,Card4,Card5,Card6,Card7,Card8, Card9, Card10,Card11,Card12,Card13,Card14,Card15}
 
 
 

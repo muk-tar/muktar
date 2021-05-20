@@ -1,12 +1,35 @@
+/* .fnavbar{
+    border: 4px solid orange;
+
+} */
+
+
+.navbar{
+
+    width: 100%;
+    /* height: 11vh; */
+    border: 20px solid transparent;
+    display: flex;
+    justify-content: center;
+
+   
+    /* opacity: 0.1; */
+    /* align-items: center; */
+}
+
+
+
 .nav__logo{
-    position: fixed;
+    /* position: fixed;
     top: 5px;
-    left: 2%;
-    width: 52px;
-    object-fit: contain;
+    left: 2%; */
+    /* margin-top: 10px; */
+    width: 70px;
+    /* top: 10v; */
+    /* object-fit: contain; */
 }
 
 
-.nav-wrapper ul > li > a{
+/* .nav-wrapper ul > li > a{
     color:black !important ;
-}
+} */

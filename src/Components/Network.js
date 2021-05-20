@@ -1,5 +1,6 @@
 import React from 'react'
 import {Card6} from './Card'
+
 import photo1 from '../images/network/photo18a.jpg'
 import photo2 from '../images/network/photo18b.jpg'
 import photo3 from '../images/network/photo18c.jpg'
@@ -9,12 +10,16 @@ import photo6 from '../images/network/photo18f.jpg'
 import photo7 from '../images/network/photo18g.jpg'
 import photo8 from '../images/network/photo18h.jpg'
 import photo9 from '../images/network/photo18i.jpg'
+import NavBar from './NavBar'
+
 
 
 
 export default function Network() {
     return (
-        <div className="network" >
+        <div className="network">
+
+            <NavBar too="/explore" />
             <div className="cardss">
                 <Card6 
                 title="UAS Unmanned aerial systems"

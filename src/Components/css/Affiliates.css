@@ -1,7 +1,7 @@
-.container1{
+/* .container1{
     width: 100%;
     background: chartreuse;
-    /* margin: 0 auto; */
+    margin: 0 auto;
     padding: 2em 0;
 }
 
@@ -15,7 +15,7 @@
     width: 70%;
     margin: 0 auto;
     padding-top: 2em;
-}
+} */
 
 
 /* .container{
@@ -23,3 +23,23 @@
     margin: 0 auto;
     padding-top: 2em;
 } */
+
+
+/* 
+.affiliates{
+    font-size: 100%;
+   
+    background: #152536;
+
+} */
+
+
+
+.affiliates-container{
+    width: 80vw;
+    margin: 0 auto;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}

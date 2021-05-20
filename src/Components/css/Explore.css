@@ -1,18 +1,16 @@
 .explore{
-    height:100vh;
-    background: linear-gradient(to right bottom, #051937, #323e63, #5e6793, #8e94c6, #c0c3fb);
+    background: linear-gradient(356deg, rgba(37,55,134,1) 30%, rgba(100,112,177,1) 63%, rgba(163,168,220,1) 86%);
 }
 
 
 
 .explore-container{
-    /* position: relative;
-    text-align: center; */
-
-    width: 90vw;
-    margin: 0px auto 0 auto;
-    display:grid;
+    width: 80vw;
+    margin: 0 auto ;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 10px;
     justify-content: center;
-    grid-template-columns: repeat(auto-fit, 250px);
-    gap: 20px;
+    /* display: grid; */
+    /* grid-template-columns: repeat(auto-fit, 250px); */  
 }

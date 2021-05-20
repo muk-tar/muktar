@@ -6,11 +6,19 @@ import photo4 from '../images/events/event4.png'
 import photo5 from '../images/events/event5.png'
 import photo6 from '../images/events/event6.png'
 import {Card3} from './Card'
+import NavBar from './NavBar'
+
+import './css/Aviation.css'
+
+import photo from '../images/Patterns/1.jpg'
 
 export default function Events() {
     return (
         <div className="events">
-
+           
+                <img src={photo} alt="clkfpf" style={{width:'100vw',position:'absolute',top:0,opacity:0.7,zIndex:-1}} />
+           
+            <NavBar too="/explore" />
             <div className="container">
                 <div className="row">
                     <div className="col s6 l4">

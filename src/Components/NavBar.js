@@ -5,7 +5,7 @@ import M from 'materialize-css'
 import logo from '../images/logo.png'
 
 
-const NavBar = ()=> {
+const NavBar = ({too})=> {
 
 
     document.addEventListener('DOMContentLoaded', function() {
@@ -15,11 +15,11 @@ const NavBar = ()=> {
 
     return (
         <section className="fnavbar">
-                <nav className="white">
-                    
-                    <NavLink to="/" className="brand-logo"><img className="nav__logo" src={logo} alt="logo"/></NavLink>         
-                   
-                </nav>
+            
+            <div className="navbar center">
+                <NavLink to={too} className="brand-logo center"><img className="nav__logo" src={logo} alt="logo"/></NavLink>         
+            </div>               
+        
         </section>
         
     )

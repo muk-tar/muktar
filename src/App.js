@@ -14,11 +14,12 @@ import Events from './Components/Events'
 import Affiliates from './Components/Affiliates'
 import ContactUs from './Components/ContactUs'
 import Practice from './Components/Practice'
+import About from './Components/About'
 
 export default function App() {
   return (
     <div className="App">
-        <NavBar /> 
+        
         <Switch>
           <Route exact path='/' component={Home} />
           <Route path='/explore' component={Explore} />
@@ -33,6 +34,7 @@ export default function App() {
           <Route path='/affiliates' component={Affiliates} />
           <Route path='/contactus' component={ContactUs} />
           <Route path='/practice' component={Practice} />
+          <Route path='/aboutus' component={About} />
         </Switch>
     </div>
   )
