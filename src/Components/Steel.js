@@ -76,11 +76,7 @@ export default function Steel() {
                     <div className="col l4 s6">
                         <Card9 title="Hex Nuts" description="Mild Steel" photo={photo12} />
                     </div>
-                    
-
-
-                    
-                    
+     
                 </div>
             </div>
         </div>

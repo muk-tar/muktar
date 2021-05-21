@@ -29,56 +29,9 @@ export default function Explore() {
                 <Card14 title="SKILLING" description="Knowledge isthe greatest treasure" title2="Centers of Excellence" transfer="skilling" photo={photo6} />
                 <Card14 title="MEDIA" description="The strength of the community" title2="English periodical - aeronautics & general aviation." transfer="explore" photo={photo7} />
                 <Card14 title="EVENTS & RECREATION" description="Work too can be fun" title2="Air Shows to Thematic Tours" transfer="events" photo={photo8} />
-                <Card14 title="AFFLIATES" description="Bussiness associates" title2="Business Partners" photo={photo9} transfer="affiliates" /> 
-                <Card14  title2="about us" photo={photo11}  transfer="aboutus" /> 
+                <Card14 title="AFFLIATES" description="" title2="Bussiness associates" photo={photo9} transfer="affiliates" /> 
+                <Card14 title="About us" title2="About us" photo={photo11}  transfer="aboutus" /> 
                 <Card14  title2="mailto:m.bluth@example.com" photo={photo10} transfer="mailto:m.bluth@example.com" contact="contact" /> 
-           
-
-
-
-                {/* <div className="row">
-                    <div className="col l3">
-                        <Card14 title="STEEL" description="Community Building" photo={photo1} />
-                    </div>
-
-                    <div className="col l3">
-                        <Card14 title="AEROSPACE" description="The sky is the limit"  photo={photo2}/>
-                    </div>
-
-                    <div className="col l3">
-                        <Card14 title="NETWORK" description="Network's the computer"   photo={photo3}/>
-                    </div>
-
-                    <div className="col l3">
-                        <Card14 title="INFRASTRUCTURE" description="A mile of Runway will take you anywhere"  photo={photo4}/>
-                    </div>
-
-                    <div className="col l3">
-                        <Card14 title="AVIATION" description="Into the blue yonder"  photo={photo5}/>
-                    </div>
-
-                    <div className="col l3">
-                        <Card14 title="SKILLING" description="Knowledge isthe greatest treasure"  photo={photo6} />
-                    </div>
-
-                    <div className="col l3">
-                        <Card14 title="MEDIA" description="The strength of the community"  photo={photo7} />
-                    </div>
-
-                    <div className="col l3">
-                        <Card14 title="EVENTS & RECREATION" description="Work too can be fun"  photo={photo8} />
-                    </div>
-                    
-
-                    <div className="col l3">
-                        <Card14 title="AFFLIATES" description="Everything official"  photo={photo9} />
-                    </div>
-
-
-
-
-                </div> */}
-               
             </div>
        </section>
     )

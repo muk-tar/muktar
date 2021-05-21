@@ -1,7 +1,6 @@
 import React from 'react'
 import {Switch,Route} from 'react-router-dom'
 import Home from './Components/Home'
-import NavBar from './Components/NavBar'
 import Explore from './Components/Explore'
 import Steel from './Components/Steel'
 import Aerospace from './Components/Aerospace'
@@ -12,8 +11,7 @@ import Skilling from './Components/Skilling'
 import Media from './Components/Media'
 import Events from './Components/Events'
 import Affiliates from './Components/Affiliates'
-import ContactUs from './Components/ContactUs'
-import Practice from './Components/Practice'
+import Extra from './Components/Extra'
 import About from './Components/About'
 
 export default function App() {
@@ -32,8 +30,7 @@ export default function App() {
           <Route path='/media' component={Media} />
           <Route path='/events' component={Events} />
           <Route path='/affiliates' component={Affiliates} />
-          <Route path='/contactus' component={ContactUs} />
-          <Route path='/practice' component={Practice} />
+          <Route path='/extra' component={Extra} />
           <Route path='/aboutus' component={About} />
         </Switch>
     </div>

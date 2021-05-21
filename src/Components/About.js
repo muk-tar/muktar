@@ -19,16 +19,9 @@ export default function About() {
         
                     <div className="abt-img">
                     <img src={me} className="abt-img" alt="React Logo" />
-                    </div>
-                    
-                 
-                   
-            
+                    </div>      
                 </div>
-               
-
             </div>
-
         </div>
     )
 }
@@ -36,9 +29,3 @@ export default function About() {
 
 
 
-
-
-// About us 
-    // MukTar Enterprises started in 1976 as a manufacturer and trader of steel bars, fasteners, scrap and mill-scale. The years since have seen expansion, diversification and pioneering efforts; moving beyond steel into information technology, telecommunication, infrastructure and aerospace, through radio systems, fintech and media besides having dabbled in energy management, technology retail, air bubble packaging material and plastic recycling.
-//next para
-    // Founded by late Shri Madanlal Agarwal, an “nth” generation entrepreneur, with a vision for customer value creation and inclusive entrepreneurship, MukTar has become a build of many companies operating in different sectors and segments conducting their businesses independently while cooperating and complementing each other; growing across national boundaries with presence in developed and developing markets supported and collaborated by affiliates.

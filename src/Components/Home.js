@@ -11,9 +11,7 @@ export default function Home() {
 
     // style={{backgroundImage:`url(${photo})`,backgroundAttachment:'fixed', backgroundSize: '100% 100%', backgroundRepeat:"no-repeat"}}
     return (
-        <section className="home" style={{backgroundImage:`url(${photo})`,backgroundAttachment:'fixed', backgroundSize: '100% 100%', backgroundRepeat:"no-repeat"}}>
-
-        
+        <section className="home" style={{backgroundImage:`url(${photo})`,backgroundAttachment:'fixed', backgroundSize: '100% 100%', backgroundRepeat:"no-repeat"}}>  
             <div className="navbar">
                             
                 <NavLink to="/" className="brand-logo center"><img className="nav__logo" src={logo} alt="logo"/></NavLink>         

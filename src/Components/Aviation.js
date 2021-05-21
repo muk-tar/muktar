@@ -29,8 +29,6 @@ export default function Aviation() {
                         alt="img1"
                         />
                     </div>
-
-
                     <div className="col s12 m6 l6"> 
                         <Card1
                         title="FBO"
@@ -39,8 +37,6 @@ export default function Aviation() {
                         alt="img1"
                         />
                     </div>
-
-
                     <div className="col s12 m6 l6"> 
                         <Card1
                         title="AIRTAXI"
@@ -49,8 +45,6 @@ export default function Aviation() {
                         alt="img1"
                         />
                     </div>
-
-
                     <div className="col s12 m6 l6"> 
                         <Card1
                         title="FLYING CLUB"
@@ -59,8 +53,6 @@ export default function Aviation() {
                         alt="img1"
                         />
                     </div>
-
-
 
                 </div>
             </div>
