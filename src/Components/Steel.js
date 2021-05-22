@@ -29,52 +29,52 @@ export default function Steel() {
             <div className="container">
                 <div className="row">
                     <div className="col l4 s6">
-                        <Card9 title="Flat Bars" description="Mild Steel" photo={photo1} />
+                        <Card9 title="Mild Steel" description="Flat Bars" photo={photo1} />
                     </div>
 
                     <div className="col l4 s6">
-                        <Card9 title="Square Bars" description="Mild Steel" photo={photo2} />
+                        <Card9 title="Mild Steel" description="Square Bars" photo={photo2} />
                     </div>
 
                     <div className="col l4 s6">
-                        <Card9 title="Flat Bars" description="Mild Steel" photo={photo3} />
+                        <Card9 title="Mild Steel" description="Octogonal Bars" photo={photo3} />
                     </div>
 
                     <div className="col l4 s6">
-                        <Card9 title="Octogonal Bars" description="Mild Steel" photo={photo4} />
+                        <Card9 title="Mild Steel" description="Round Bars" photo={photo4} />
                     </div>
 
                     <div className="col l4 s6">
-                        <Card9 title="Round Bars" description="Mild Steel" photo={photo5} />
+                        <Card9 title="Mild Steel" description="TMT Bars" photo={photo5} />
                     </div>
 
                     <div className="col l4 s6">
-                        <Card9 title="TMT Bars" description="Mild Steel" photo={photo6} />
+                        <Card9 title="Mild Steel" description="Wire Rod" photo={photo6} />
                     </div>
 
 
                     <div className="col l4 s6">
-                        <Card9 title="Wire Rod" description="Mild Steel" photo={photo7} />
+                        <Card9 title="Mild Steel" description="Barbed Wire" photo={photo7} />
                     </div>
 
                     <div className="col l4 s6">
-                        <Card9 title="Barbed Wire" description="Mild Steel" photo={photo8} />
+                        <Card9 title="Mild Steel" description="Link chain" photo={photo8} />
                     </div>
 
                     <div className="col l4 s6">
-                        <Card9 title="Link chain" description="Mild Steel" photo={photo9} />
+                        <Card9 title="Mild Steel" description="Wire Nails" photo={photo9} />
                     </div>
 
                     <div className="col l4 s6">
-                        <Card9 title="Wire Nails" description="Mild Steel" photo={photo10} />
+                        <Card9 title="Mild Steel" description="Hex Head Bolt" photo={photo10} />
                     </div>
 
                     <div className="col l4 s6">
-                        <Card9 title="Hex Head Bolt" description="Mild Steel" photo={photo11} />
+                        <Card9 title="Mild Steel" description="Hex Nuts" photo={photo11} />
                     </div>
 
                     <div className="col l4 s6">
-                        <Card9 title="Hex Nuts" description="Mild Steel" photo={photo12} />
+                        <Card9 title="Mild Steel" description="Hex Head Screw" photo={photo12} />
                     </div>
      
                 </div>
